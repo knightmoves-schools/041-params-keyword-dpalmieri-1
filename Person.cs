@@ -9,10 +9,16 @@ public class Person{
       FirstName = firstName;
       LastName = lastName;
    }
-   public string[] AddHobbies(params string[] values){
-      return Hobbies = values;
-   }
+   public void AddHobbies(params string[] hobbies)
+    {
+        if (Hobbies == null)
+            Hobbies = hobbies;
+        else
+            Hobbies = Hobbies.Concat(hobbies).ToArray();
+    }
 }
+}
+
 
 
 
