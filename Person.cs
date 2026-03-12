@@ -3,7 +3,7 @@
 public class Person{
    public string FirstName;
    public string LastName;
-   public string[] Hobbies = ["skate", "skip"];
+   public string[] Hobbies = ["skate"];
 
    public Person(string firstName, string lastName){
       FirstName = firstName;
@@ -21,6 +21,7 @@ public class Person{
       return $"[ {output} ]";
    }
 }
+
 
 
 
