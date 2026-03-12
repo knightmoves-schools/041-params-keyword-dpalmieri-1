@@ -9,8 +9,11 @@ public class Person{
       FirstName = firstName;
       LastName = lastName;
    }
-
-   public string AddHobbies(params string[] Hobbies){
+   public string[] Hobbies(string[] values){
+      return Hobbies = values;
+   }
+   
+   /* public string AddHobbies(params string[] Hobbies){
       string output = "";
       foreach(string Hobby in Hobbies){
          if(output.Length > 0){
@@ -19,8 +22,9 @@ public class Person{
          output += Hobby;
       }
       return $"[ {output} ]";
-   }
+   } */
 }
+
 
 
 
