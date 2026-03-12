@@ -11,7 +11,7 @@ public class Person{
    }
 
    public string AddHobbies(params string[] Hobbies){
-      string output = " ";
+      string output = "";
       foreach(string Hobby in Hobbies){
          if(output.Length > 0){
             output += ", ";
@@ -21,6 +21,7 @@ public class Person{
       return $"[ {output} ]";
    }
 }
+
 
 
 
