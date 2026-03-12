@@ -9,7 +9,7 @@ public class Person{
       FirstName = firstName;
       LastName = lastName;
    }
-   public string[] Hobbies(string[] values){
+   public string[] AddHobbies(string[] values){
       return Hobbies = values;
    }
    
@@ -24,6 +24,7 @@ public class Person{
       return $"[ {output} ]";
    } */
 }
+
 
 
 
