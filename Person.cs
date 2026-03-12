@@ -9,4 +9,15 @@ public class Person{
       FirstName = firstName;
       LastName = lastName;
    }
+
+   public AddHobbies(params string[] Hobbies){
+      string output = "";
+      foreach(string Hobby in Hobbies){
+         if(output.Length > 0){
+            output += ", ";
+         }
+         output += Hobby;
+      }
+      return $"[ {output} ]";
+   }
 }
